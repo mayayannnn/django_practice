@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def test(request):
     return render(request, "test.html")
+
+def aiueo(request):
+    return render(request, "aiueo.html")

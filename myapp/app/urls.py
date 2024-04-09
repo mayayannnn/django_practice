@@ -3,5 +3,6 @@ from app import views
 
 app_name = "app"
 urlpatterns = [
-    path("app/",views.test, name="test")
+    path("app/",views.test, name="test"),
+    path("aiueo/",views.aiueo, name="aiueo")
 ]
